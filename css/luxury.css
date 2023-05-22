@@ -1,0 +1,28 @@
+.luxury {
+    background: var(--color-verydarkcyan);
+    border-radius: 0 .8rem .8rem 0;
+}
+
+.luxury .card__button {
+    color: var(--color-verydarkcyan);
+    transition: .2s ease-out;
+}
+
+.luxury .card__button:hover {
+    color: var(--color-verylightgray);
+    background: var(--color-verydarkcyan-multiply);
+    cursor: pointer;
+}
+
+.luxury .card__button:active {
+    color: var(--color-verylightgray);
+    background: var(--color-verydarkcyan);
+    border: .2rem solid var(--color-verylightgray);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) { 
+    .luxury {
+        border-radius: 0 0 .8rem .8rem;
+    }
+}

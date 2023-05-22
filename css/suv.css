@@ -1,0 +1,20 @@
+.suv {
+    background: var(--color-darkcyan);
+}
+
+.suv .card__button {
+    color: var(--color-darkcyan);
+    transition: .2s ease-out;
+}
+
+.suv .card__button:hover {
+    color: var(--color-verylightgray);
+    background: var(--color-darkcyan-multiply);
+    cursor: pointer;
+}
+
+.suv .card__button:active {
+    color: var(--color-verylightgray);
+    background: var(--color-darkcyan);
+    border: .2rem solid var(--color-verylightgray);
+}

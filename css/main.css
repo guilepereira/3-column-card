@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    font-size: 62.5%;
+    --color-brightorange: rgb(227, 136, 38);
+    --color-darkcyan: rgb(0, 105, 112);
+    --color-verydarkcyan: rgb(0, 66, 65);
+    --color-transparentwhite: rgba(255, 255, 255, 0.75);
+    --color-verylightgray: rgb(242, 242, 242);
+    --color-verydarkcyan-multiply: rgb(0,52,52);
+    --color-darkcyan-multiply: rgb(0,84,89);
+    --color-brightorange-multiply: rgb(181,108,30);
+}
+
+/* MAIN */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--color-verylightgray);
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4.1rem;
+}
+
+/* SCREEN READER ONLY */
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+    position: absolute;
+    bottom: 1.5rem;
+    width: 100%;
+    
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution p {
+    font-size: 1rem;
+    text-align: center;
+    
+    color: hsla(213, 5%, 46%, 0.5);
+}
+
+.attribution a {
+    color: hsla(210, 5%, 30%, 0.5);
+    font-size: 1rem;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 500px) {
+
+    body {
+        justify-content: flex-start;
+        padding: 8.8rem 0;
+        height: unset;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        margin-top: 0;
+    }
+
+    .attribution {
+        height: 1.5rem;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}

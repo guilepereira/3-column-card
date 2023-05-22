@@ -1,0 +1,27 @@
+.sedan {
+    background: var(--color-brightorange);
+    border-radius: .8rem 0 0 .8rem;
+}
+
+.sedan .card__button {
+    color: var(--color-brightorange);
+    transition: .2s ease-out;
+}
+
+.sedan .card__button:hover {
+    color: var(--color-verylightgray);
+    background: var(--color-brightorange-multiply);
+    cursor: pointer;
+}
+
+.sedan .card__button:active {
+    color: var(--color-verylightgray);
+    background: var(--color-brightorange);
+    border: .2rem solid var(--color-verylightgray);
+}
+
+@media screen and (max-width: 500px) { 
+    .sedan {
+        border-radius: .8rem .8rem 0 0;
+    }
+}
