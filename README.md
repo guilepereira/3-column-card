@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live project on [GitHub](https://guilepereira.github.io/html-css/3-column-card/)
+- Live project on [GitHub](https://guilepereira.github.io/3-column-card/)
 
 - Solution on [3-Column Component by Guile Pereira](https://www.frontendmentor.io/solutions/3column-preview-card-component-okt1NW5nLw)
 -------
